@@ -1,0 +1,81 @@
+/* فونت فارسی */
+body {
+  font-family: 'Vazir', sans-serif;
+  background-color: #e3f2fd; /* آبی پاستلی */
+  color: #0d1b2a; /* سرمه‌ای */
+}
+
+/* منو بالا */
+.bg-navy {
+  background-color: #0d1b2a !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+/* سربرگ چشمک‌زن */
+.blinking-header {
+  animation: blink 1s infinite;
+  background-color: #90caf9;
+  color: #0d1b2a;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+/* کارت کتاب */
+.book-card {
+  background-color: #ffffff;
+  border: 1px solid #bbdefb;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* بخش رسانه‌ها */
+.media-section {
+  margin-top: 40px;
+}
+
+.media-section h4 {
+  margin-bottom: 20px;
+  color: #0d1b2a;
+}
+
+.media-box {
+  margin-bottom: 30px;
+}
+
+/* قاب ویدیوها یکسان */
+.video-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
